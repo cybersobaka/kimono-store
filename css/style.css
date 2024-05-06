@@ -1,0 +1,73 @@
+
+body {
+    background-color:#050505;
+    font-family: 'Open Sans', sans-serif;
+    max-width: 70%;    
+    margin-left: auto;
+    margin-right: auto;
+    color: rgb(231, 231, 231);
+}
+
+header {
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul{
+    display: flex;
+    list-style-type: none;
+}
+
+ul li a {
+    padding: 0 20px;
+    text-decoration: none;
+    align-items: baseline;
+    font-size: 19px;
+    color: rgb(231, 231, 231);
+}
+
+.logo {
+    color: azure;
+    font-weight: bold;
+    font-size: 34px;
+}
+
+section {
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.one {
+   padding-right: 20px;
+}
+
+button {
+    background-color: rgb(255, 115, 0);
+    padding: 7px 20px;
+    border-radius: 7px;
+    border-style: solid 1px;
+    color: aliceblue;
+    border-color: beige;
+    border
+}   
+
+h1 {
+    font-size: 60px;
+    color: white;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.img {
+    margin-top: auto;
+}
+
+p {
+    font-weight: 200;
+    font-stretch: expanded;
+    font-size: 20px;
+}
